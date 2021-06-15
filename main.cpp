@@ -1,7 +1,17 @@
 #include <iostream>
 #include "model/createMarkdown/readFile/ReadFile.h"
+#include "model/createFile/CreateFile.h"
+
+
 
 int main() {
+
+
+    CreateFile createFile;
+    createFile.setPath("ex/20210616/234");
+    createFile.setName("play.md");
+    createFile.createFile();
+
     std::cout << "Hello, World!" << std::endl;
 
     ReadFile readFile;

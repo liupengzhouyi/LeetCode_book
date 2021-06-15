@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/liupeng/CLionProjects/LeetCode_book/allEnv.h
+iostream
+-
+string
+-
+
+/Users/liupeng/CLionProjects/LeetCode_book/main.cpp
+iostream
+-
+model/createMarkdown/readFile/ReadFile.h
+/Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/readFile/ReadFile.h
+model/createFile/CreateFile.h
+/Users/liupeng/CLionProjects/LeetCode_book/model/createFile/CreateFile.h
+
+/Users/liupeng/CLionProjects/LeetCode_book/model/createFile/CreateFile.cpp
+CreateFile.h
+/Users/liupeng/CLionProjects/LeetCode_book/model/createFile/CreateFile.h
+
+/Users/liupeng/CLionProjects/LeetCode_book/model/createFile/CreateFile.h
+iostream
+-
+fstream
+-
+string
+-
+../../allEnv.h
+/Users/liupeng/CLionProjects/LeetCode_book/allEnv.h
+
+/Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/readFile/ReadFile.h
+iostream
+-
+string
+-
+vector
+-
+fstream
+-
+

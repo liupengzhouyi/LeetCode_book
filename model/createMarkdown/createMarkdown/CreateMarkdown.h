@@ -32,6 +32,8 @@ public:
     const std::vector<std::string> &getMarkdownInfo() const;
 
     void setMarkdownInfo(const std::vector<std::string> &markdownInfo);
+
+    void log(const std::string &logInfo);
 };
 
 

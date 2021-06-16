@@ -95,10 +95,22 @@
 		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/model/createFile/CreateFile.h">
 			<Option target="LeetCode_book"/>
 		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/createMarkdown/CreateMarkdown.cpp">
+			<Option target="LeetCode_book"/>
+		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/createMarkdown/CreateMarkdown.h">
+			<Option target="LeetCode_book"/>
+		</Unit>
 		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/readFile/ReadFile.cpp">
 			<Option target="LeetCode_book"/>
 		</Unit>
 		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/readFile/ReadFile.h">
+			<Option target="LeetCode_book"/>
+		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/model/selectDir/SelectDir.cpp">
+			<Option target="LeetCode_book"/>
+		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/model/selectDir/SelectDir.h">
 			<Option target="LeetCode_book"/>
 		</Unit>
 		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/CMakeLists.txt">

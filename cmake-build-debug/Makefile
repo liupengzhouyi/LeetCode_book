@@ -223,6 +223,33 @@ model/createFile/CreateFile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/model/createFile/CreateFile.cpp.s
 .PHONY : model/createFile/CreateFile.cpp.s
 
+model/createMarkdown/createMarkdown/CreateMarkdown.o: model/createMarkdown/createMarkdown/CreateMarkdown.cpp.o
+
+.PHONY : model/createMarkdown/createMarkdown/CreateMarkdown.o
+
+# target to build an object file
+model/createMarkdown/createMarkdown/CreateMarkdown.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/model/createMarkdown/createMarkdown/CreateMarkdown.cpp.o
+.PHONY : model/createMarkdown/createMarkdown/CreateMarkdown.cpp.o
+
+model/createMarkdown/createMarkdown/CreateMarkdown.i: model/createMarkdown/createMarkdown/CreateMarkdown.cpp.i
+
+.PHONY : model/createMarkdown/createMarkdown/CreateMarkdown.i
+
+# target to preprocess a source file
+model/createMarkdown/createMarkdown/CreateMarkdown.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/model/createMarkdown/createMarkdown/CreateMarkdown.cpp.i
+.PHONY : model/createMarkdown/createMarkdown/CreateMarkdown.cpp.i
+
+model/createMarkdown/createMarkdown/CreateMarkdown.s: model/createMarkdown/createMarkdown/CreateMarkdown.cpp.s
+
+.PHONY : model/createMarkdown/createMarkdown/CreateMarkdown.s
+
+# target to generate assembly for a file
+model/createMarkdown/createMarkdown/CreateMarkdown.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/model/createMarkdown/createMarkdown/CreateMarkdown.cpp.s
+.PHONY : model/createMarkdown/createMarkdown/CreateMarkdown.cpp.s
+
 model/createMarkdown/readFile/ReadFile.o: model/createMarkdown/readFile/ReadFile.cpp.o
 
 .PHONY : model/createMarkdown/readFile/ReadFile.o
@@ -250,6 +277,33 @@ model/createMarkdown/readFile/ReadFile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/model/createMarkdown/readFile/ReadFile.cpp.s
 .PHONY : model/createMarkdown/readFile/ReadFile.cpp.s
 
+model/selectDir/SelectDir.o: model/selectDir/SelectDir.cpp.o
+
+.PHONY : model/selectDir/SelectDir.o
+
+# target to build an object file
+model/selectDir/SelectDir.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/model/selectDir/SelectDir.cpp.o
+.PHONY : model/selectDir/SelectDir.cpp.o
+
+model/selectDir/SelectDir.i: model/selectDir/SelectDir.cpp.i
+
+.PHONY : model/selectDir/SelectDir.i
+
+# target to preprocess a source file
+model/selectDir/SelectDir.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/model/selectDir/SelectDir.cpp.i
+.PHONY : model/selectDir/SelectDir.cpp.i
+
+model/selectDir/SelectDir.s: model/selectDir/SelectDir.cpp.s
+
+.PHONY : model/selectDir/SelectDir.s
+
+# target to generate assembly for a file
+model/selectDir/SelectDir.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/model/selectDir/SelectDir.cpp.s
+.PHONY : model/selectDir/SelectDir.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -268,9 +322,15 @@ help:
 	@echo "... model/createFile/CreateFile.o"
 	@echo "... model/createFile/CreateFile.i"
 	@echo "... model/createFile/CreateFile.s"
+	@echo "... model/createMarkdown/createMarkdown/CreateMarkdown.o"
+	@echo "... model/createMarkdown/createMarkdown/CreateMarkdown.i"
+	@echo "... model/createMarkdown/createMarkdown/CreateMarkdown.s"
 	@echo "... model/createMarkdown/readFile/ReadFile.o"
 	@echo "... model/createMarkdown/readFile/ReadFile.i"
 	@echo "... model/createMarkdown/readFile/ReadFile.s"
+	@echo "... model/selectDir/SelectDir.o"
+	@echo "... model/selectDir/SelectDir.i"
+	@echo "... model/selectDir/SelectDir.s"
 .PHONY : help
 
 

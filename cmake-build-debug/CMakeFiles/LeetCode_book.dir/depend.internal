@@ -15,3 +15,6 @@ CMakeFiles/LeetCode_book.dir/model/createFile/CreateFile.cpp.o
 CMakeFiles/LeetCode_book.dir/model/createMarkdown/readFile/ReadFile.cpp.o
  /Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/readFile/ReadFile.cpp
  /Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/readFile/ReadFile.h
+CMakeFiles/LeetCode_book.dir/model/selectDir/SelectDir.cpp.o
+ /Users/liupeng/CLionProjects/LeetCode_book/model/selectDir/SelectDir.cpp
+ /Users/liupeng/CLionProjects/LeetCode_book/model/selectDir/SelectDir.h

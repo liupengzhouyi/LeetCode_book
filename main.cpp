@@ -2,6 +2,7 @@
 #include "model/createMarkdown/readFile/ReadFile.h"
 #include "model/createFile/CreateFile.h"
 #include "model/createMarkdown/createMarkdown/CreateMarkdown.h"
+#include "model/selectDir/SelectDir.h"
 
 /*int main() {
 
@@ -42,8 +43,16 @@
 
 int main() {
 
-    std::vector<std::string> l = {"abcdef", "123456"};
-    CreateMarkdown createMarkdown = CreateMarkdown("ex", l);
+    ReadFile readFile = ReadFile();
+    readFile.readFileInfo();
+
+    SelectDir selectDir = SelectDir();
+    selectDir.selectDir();
+    for (auto item : selectDir.getPathSet()) {
+        std::cout << item << std::endl;
+    }
+//    std::vector<std::string> l = {"abcdef", "123456"};
+//    CreateMarkdown createMarkdown = CreateMarkdown("ex", l);
 
     double b = 100000000.0;
     for (int i=0;i<365/2;i++) {

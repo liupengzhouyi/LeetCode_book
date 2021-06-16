@@ -8,6 +8,7 @@ CMakeFiles/LeetCode_book.dir/main.cpp.o: ../main.cpp
 CMakeFiles/LeetCode_book.dir/main.cpp.o: ../model/createFile/CreateFile.h
 CMakeFiles/LeetCode_book.dir/main.cpp.o: ../model/createMarkdown/createMarkdown/CreateMarkdown.h
 CMakeFiles/LeetCode_book.dir/main.cpp.o: ../model/createMarkdown/readFile/ReadFile.h
+CMakeFiles/LeetCode_book.dir/main.cpp.o: ../model/selectDir/SelectDir.h
 
 CMakeFiles/LeetCode_book.dir/model/createFile/CreateFile.cpp.o: ../allEnv.h
 CMakeFiles/LeetCode_book.dir/model/createFile/CreateFile.cpp.o: ../model/createFile/CreateFile.cpp
@@ -17,9 +18,11 @@ CMakeFiles/LeetCode_book.dir/model/createMarkdown/createMarkdown/CreateMarkdown.
 CMakeFiles/LeetCode_book.dir/model/createMarkdown/createMarkdown/CreateMarkdown.cpp.o: ../model/createMarkdown/createMarkdown/CreateMarkdown.cpp
 CMakeFiles/LeetCode_book.dir/model/createMarkdown/createMarkdown/CreateMarkdown.cpp.o: ../model/createMarkdown/createMarkdown/CreateMarkdown.h
 
+CMakeFiles/LeetCode_book.dir/model/createMarkdown/readFile/ReadFile.cpp.o: ../allEnv.h
 CMakeFiles/LeetCode_book.dir/model/createMarkdown/readFile/ReadFile.cpp.o: ../model/createMarkdown/readFile/ReadFile.cpp
 CMakeFiles/LeetCode_book.dir/model/createMarkdown/readFile/ReadFile.cpp.o: ../model/createMarkdown/readFile/ReadFile.h
 
+CMakeFiles/LeetCode_book.dir/model/selectDir/SelectDir.cpp.o: ../allEnv.h
 CMakeFiles/LeetCode_book.dir/model/selectDir/SelectDir.cpp.o: ../model/selectDir/SelectDir.cpp
 CMakeFiles/LeetCode_book.dir/model/selectDir/SelectDir.cpp.o: ../model/selectDir/SelectDir.h
 

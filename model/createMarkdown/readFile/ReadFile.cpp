@@ -4,6 +4,7 @@
 
 
 #include "ReadFile.h"
+#include "../../../allEnv.h"
 
 ReadFile::ReadFile() {}
 
@@ -30,15 +31,7 @@ void ReadFile::setInfo(const std::vector<std::string> &info) {
 }
 
 void ReadFile::readFileInfo() {
-    std::ifstream in(this->getPath());
-    if (! in.is_open()) {
-        std::cout << "Error opening file"; exit (1);
-    }
-    std::string line;
-    while(getline(in, line))
-    {
-        this->info.push_back(line);
-    }
+
 }
 
 void ReadFile::showFileInfo() {
@@ -47,4 +40,10 @@ void ReadFile::showFileInfo() {
         std::cout << line << std::endl;
     }
 
+}
+
+void ReadFile::sayLog(const std::string &logInfo) {
+    if (LOGKEYTAG == 1) {
+        printLog(logInfo);
+    }
 }

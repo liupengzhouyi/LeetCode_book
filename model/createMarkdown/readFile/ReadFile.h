@@ -9,6 +9,7 @@
 #include <string>
 #include <vector>
 #include <fstream>
+#include <dirent.h>
 
 class ReadFile {
 
@@ -38,6 +39,8 @@ public:
     void readFileInfo();
 
     void showFileInfo();
+
+    void sayLog(const std::string &logInfo);
 };
 
 

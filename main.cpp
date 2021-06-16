@@ -1,6 +1,7 @@
 #include <iostream>
 #include "model/createMarkdown/readFile/ReadFile.h"
 #include "model/createFile/CreateFile.h"
+#include "model/createMarkdown/createMarkdown/CreateMarkdown.h"
 
 /*int main() {
 
@@ -40,6 +41,10 @@
 }*/
 
 int main() {
+
+    std::vector<std::string> l = {"abcdef", "123456"};
+    CreateMarkdown createMarkdown = CreateMarkdown("ex", l);
+
     double b = 100000000.0;
     for (int i=0;i<365/2;i++) {
         b = b * 1.2;

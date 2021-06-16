@@ -12,31 +12,17 @@ iostream
 string
 -
 
-/Users/liupeng/CLionProjects/LeetCode_book/main.cpp
-iostream
--
-model/createMarkdown/readFile/ReadFile.h
-/Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/readFile/ReadFile.h
-model/createFile/CreateFile.h
-/Users/liupeng/CLionProjects/LeetCode_book/model/createFile/CreateFile.h
-
-/Users/liupeng/CLionProjects/LeetCode_book/model/createFile/CreateFile.h
-iostream
--
+/Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/createMarkdown/CreateMarkdown.cpp
 fstream
 -
-string
--
-../../allEnv.h
+CreateMarkdown.h
+/Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/createMarkdown/CreateMarkdown.h
+../../../allEnv.h
 /Users/liupeng/CLionProjects/LeetCode_book/allEnv.h
 
-/Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/readFile/ReadFile.h
-iostream
--
+/Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/createMarkdown/CreateMarkdown.h
 string
 -
 vector
--
-fstream
 -
 

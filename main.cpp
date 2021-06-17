@@ -27,8 +27,6 @@ int main() {
             createFile.createThreeFile();
 
         } else if(n == 2) {
-            // 合并markdown
-            std::cout << "合并markdown" << std::endl;
             SelectDir selectDir = SelectDir();
             selectDir.selectDir();
             for (auto item : selectDir.getPathSet()) {

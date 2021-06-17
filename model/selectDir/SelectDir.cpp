@@ -40,27 +40,27 @@ void SelectDir::selectDir() {
     DIR * dir;
     struct dirent * ptr;
     std::string path = "../ex";
-    this->sayLog("open dir " + path + ":");
+    this->sayLog("进入｜---｜" + path);
     dir = opendir((char *)path.c_str());
-    while((ptr = readdir(dir)) != NULL) //循环读取目录数据
+    while((ptr = readdir(dir)) != NULL)
     {
-        if(strcmp(ptr->d_name,".")==0 || strcmp(ptr->d_name,"..")==0)    ///current dir OR parrent dir
+        if(strcmp(ptr->d_name,".")==0 || strcmp(ptr->d_name,"..")==0)
             continue;
         else if(ptr->d_type == 4) {
             std::string newPath = path + "/" + std::string(ptr->d_name);
-            this->sayLog("find dir " + newPath + "");
+            this->sayLog("进入｜---｜" + newPath + "");
             this->addPathSet(newPath);
         }
     }
     closedir(dir);//关闭目录指针
-    this->sayLog("clear dir over!");
+    this->sayLog("关闭｜---｜" + path);
 }
 
 int SelectDir::addPathSet(const std::string &tempPath) {
     int count = 0;
     DIR * dir1;
     struct dirent * ptr1;
-    this->sayLog("open dir --- " + tempPath + ":");
+    this->sayLog("打开｜---｜" + tempPath);
     dir1 = opendir((char *)tempPath.c_str());
     while((ptr1 = readdir(dir1)) != NULL) //循环读取目录数据
     {
@@ -68,13 +68,14 @@ int SelectDir::addPathSet(const std::string &tempPath) {
             continue;
         else if(ptr1->d_type == 4) {
             std::string newPath = tempPath + "/" + std::string(ptr1->d_name);
-            this->sayLog("find dir " + newPath + "");
+            this->sayLog("找到｜---｜---｜" + newPath + "");
             this->pathSet.push_back(newPath);
+            this->sayLog("收集｜>>>>>>>>>>>>>｜" + newPath + "");
             count = count + 1;
         }
     }
     closedir(dir1);//关闭目录指针
-    this->sayLog("clear dir over!");
+    this->sayLog("关闭｜---｜" + tempPath);
     return count;
 }
 

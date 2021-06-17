@@ -40,18 +40,23 @@ void ReadFile::setInfo(const std::vector<std::string> &info) {
 
 void ReadFile::readFileInfo() {
     for (auto tempPath : this->getPathSet()) {
-        sayLog("open:" + tempPath);
+        sayLog("｜ 打开 ｜ 文件 ｜ " + tempPath + " ｜");
         std::ifstream in;
         in.open(tempPath, std::ios::in);
         if (!in.is_open()) {
+            sayLog("｜ 打开 ｜ 文件 ｜ " + tempPath + " ｜ 失败 ｜");
             std::cout << "Error opening file"; exit (1);
         } else {
+            sayLog("｜ 打开 ｜ 文件 ｜ " + tempPath + " ｜ 成功 ｜");
+            sayLog("｜ 读取 ｜ 文件 ｜ " + tempPath + " ｜ 内容 ｜ 开始 ｜");
             std::string line;
             while(getline(in, line))
             {
                 this->info.push_back(line);
             }
+            sayLog("｜ 读取 ｜ 文件 ｜ " + tempPath + " ｜ 内容 ｜ 完毕 ｜");
             in.close();
+            sayLog("｜ 关闭 ｜ 文件 ｜ " + tempPath + " ｜");
         }
     }
 }
@@ -79,12 +84,15 @@ int ReadFile::createFilePath() {
     }
     int count = 0;
     std::string titlePath = this->path + "/" + titleNum + "Title.md";
+    this->sayLog("| 找到｜ 题目 ｜ 文件｜ 路径 | " + titlePath + "｜");
     this->pathSet.push_back(titlePath);
     count = count + 1;
     std::string mindPath = this->path + "/" + titleNum + "Mind.md";
+    this->sayLog("| 找到｜ 解题 ｜ 文件 ｜ 路径 | " + mindPath + "｜");
     this->pathSet.push_back(mindPath);
     count = count + 1;
     std::string codePath = this->path + "/" + titleNum + "Code.cpp";
+    this->sayLog("| 找到｜ 代码 ｜ 文件 ｜ 路径 | " + codePath + "｜");
     this->pathSet.push_back(codePath);
     count = count + 1;
     return count;

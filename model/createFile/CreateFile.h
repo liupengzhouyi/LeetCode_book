@@ -15,30 +15,40 @@ class CreateFile {
 private:
     std::string path;
 
-    std::string name;
+    std::string dirName;
+
+    std::string fileName;
 
 public:
     CreateFile();
 
     CreateFile(const std::string &path, const std::string &name);
 
+    void init();
+
     int createPath();
 
     int createFile();
+
+    int createOneFile(const std::string &path);
+
+    void createFileByName(const std::string &name);
+
+    void createThreeFile();
 
     const std::string &getPath() const;
 
     void setPath(const std::string &path);
 
-    const std::string &getName() const;
+    const std::string &getDirName() const;
 
-    void setName(const std::string &name);
+    void setDirName(const std::string &dirName);
 
-    void log(const std::string &logInfo) {
-        if (LOGKEYTAG == 1){
-            printLog(logInfo);
-        }
-    }
+    const std::string &getFileName() const;
+
+    void setFileName(const std::string &fileName);
+
+    void log(const std::string &logInfo);
 };
 
 

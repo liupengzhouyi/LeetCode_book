@@ -83,9 +83,6 @@
 		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/allEnv.h">
 			<Option target="LeetCode_book"/>
 		</Unit>
-		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/ex/20210614/256/code.cpp">
-			<Option target="LeetCode_book"/>
-		</Unit>
 		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/main.cpp">
 			<Option target="LeetCode_book"/>
 		</Unit>

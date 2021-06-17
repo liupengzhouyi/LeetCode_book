@@ -142,33 +142,6 @@ LeetCode_book/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/build
 .PHONY : LeetCode_book/fast
 
-ex/20210614/256/code.o: ex/20210614/256/code.cpp.o
-
-.PHONY : ex/20210614/256/code.o
-
-# target to build an object file
-ex/20210614/256/code.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/ex/20210614/256/code.cpp.o
-.PHONY : ex/20210614/256/code.cpp.o
-
-ex/20210614/256/code.i: ex/20210614/256/code.cpp.i
-
-.PHONY : ex/20210614/256/code.i
-
-# target to preprocess a source file
-ex/20210614/256/code.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/ex/20210614/256/code.cpp.i
-.PHONY : ex/20210614/256/code.cpp.i
-
-ex/20210614/256/code.s: ex/20210614/256/code.cpp.s
-
-.PHONY : ex/20210614/256/code.s
-
-# target to generate assembly for a file
-ex/20210614/256/code.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/ex/20210614/256/code.cpp.s
-.PHONY : ex/20210614/256/code.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -313,9 +286,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCode_book"
-	@echo "... ex/20210614/256/code.o"
-	@echo "... ex/20210614/256/code.i"
-	@echo "... ex/20210614/256/code.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -8,7 +8,7 @@ void show() {
     std::cout << "做题 -> 1" << std::endl;
     std::cout << "出书 -> 2" << std::endl;
     std::cout << "帮助 -> 3" << std::endl;
-    std::cout << "推出 -> 0" << std::endl;
+    std::cout << "退出 -> 0" << std::endl;
 }
 
 int main() {

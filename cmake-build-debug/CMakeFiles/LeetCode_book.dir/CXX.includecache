@@ -11,6 +11,8 @@ iostream
 -
 string
 -
+fstream
+-
 
 /Users/liupeng/CLionProjects/LeetCode_book/main.cpp
 iostream
@@ -24,6 +26,10 @@ model/createMarkdown/createMarkdown/CreateMarkdown.h
 model/selectDir/SelectDir.h
 /Users/liupeng/CLionProjects/LeetCode_book/model/selectDir/SelectDir.h
 
+/Users/liupeng/CLionProjects/LeetCode_book/model/createFile/CreateFile.cpp
+CreateFile.h
+/Users/liupeng/CLionProjects/LeetCode_book/model/createFile/CreateFile.h
+
 /Users/liupeng/CLionProjects/LeetCode_book/model/createFile/CreateFile.h
 iostream
 -
@@ -32,6 +38,14 @@ fstream
 string
 -
 ../../allEnv.h
+/Users/liupeng/CLionProjects/LeetCode_book/allEnv.h
+
+/Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/createMarkdown/CreateMarkdown.cpp
+fstream
+-
+CreateMarkdown.h
+/Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/createMarkdown/CreateMarkdown.h
+../../../allEnv.h
 /Users/liupeng/CLionProjects/LeetCode_book/allEnv.h
 
 /Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/createMarkdown/CreateMarkdown.h
@@ -57,6 +71,12 @@ fstream
 -
 dirent.h
 -
+
+/Users/liupeng/CLionProjects/LeetCode_book/model/selectDir/SelectDir.cpp
+SelectDir.h
+/Users/liupeng/CLionProjects/LeetCode_book/model/selectDir/SelectDir.h
+../../allEnv.h
+/Users/liupeng/CLionProjects/LeetCode_book/allEnv.h
 
 /Users/liupeng/CLionProjects/LeetCode_book/model/selectDir/SelectDir.h
 vector

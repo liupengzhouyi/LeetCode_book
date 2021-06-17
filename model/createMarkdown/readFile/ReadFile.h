@@ -44,7 +44,7 @@ public:
 
     int createFilePath();
 
-    void readFileInfo();
+    void readFileInfo(const std::string &path);
 
     void showFileInfo();
 

@@ -25,7 +25,6 @@ int main() {
             CreateFile createFile = CreateFile();
             createFile.setDirName(name);
             createFile.createThreeFile();
-
         } else if(n == 2) {
             SelectDir selectDir = SelectDir();
             selectDir.selectDir();
@@ -34,10 +33,7 @@ int main() {
                 ReadFile readFile = ReadFile();
                 readFile.setPath(item);
                 readFile.createFilePath();
-                readFile.readFileInfo();
-                for (std::string info : readFile.getInfo()) {
-                    std::cout << info << std::endl;
-                }
+                CreateMarkdown createMarkdown = CreateMarkdown(item, readFile.getInfo());
             }
         } else if (n == 3) {
             show();

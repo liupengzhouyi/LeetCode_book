@@ -25,6 +25,8 @@ public:
 
     CreateMarkdown(const std::string &markdownPath, const std::vector<std::string> &markdownInfo);
 
+    virtual ~CreateMarkdown();
+
     const std::string &getMarkdownPath() const;
 
     void setMarkdownPath(const std::string &markdownPath);

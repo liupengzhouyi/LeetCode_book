@@ -22,7 +22,7 @@ public:
 
     SelectDir(const std::string &path);
 
-    auto findDir() -> int;
+    int findDir();
 
     const std::string &getPath() const;
 
@@ -34,9 +34,9 @@ public:
 
     void selectDir();
 
-    auto addPathSet(const std::string &tempPath) -> int;
+    int addPathSet(const std::string &tempPath);
 
-    auto sayLog(const std::string &logInfo) -> void;
+    void sayLog(const std::string &logInfo);
 };
 
 

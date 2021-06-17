@@ -43,22 +43,23 @@
 
 int main() {
 
+    std::string path;
+    std::cin >> path;
+    std::cout << path;
     ReadFile readFile = ReadFile();
+    readFile.setPath("../ex/20210616/234");
+    readFile.createFilePath();
     readFile.readFileInfo();
-
-    SelectDir selectDir = SelectDir();
-    selectDir.selectDir();
-    for (auto item : selectDir.getPathSet()) {
-        std::cout << item << std::endl;
+    for (std::string info : readFile.getInfo()) {
+        std::cout << info << std::endl;
     }
+
+//    SelectDir selectDir = SelectDir();
+//    selectDir.selectDir();
+//    for (auto item : selectDir.getPathSet()) {
+//        std::cout << item << std::endl;
+//    }
 //    std::vector<std::string> l = {"abcdef", "123456"};
 //    CreateMarkdown createMarkdown = CreateMarkdown("ex", l);
 
-    double b = 100000000.0;
-    for (int i=0;i<365/2;i++) {
-        b = b * 1.2;
-        b = b * 0.8;
-    }
-    std::cout << b << std::endl;
-    return 0;
 }

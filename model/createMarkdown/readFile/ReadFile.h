@@ -18,6 +18,8 @@ private:
 
     std::string path;
 
+    std::vector<std::string> pathSet;
+
     std::vector<std::string> info;
 
 public:
@@ -32,9 +34,15 @@ public:
 
     void setPath(const std::string &path);
 
+    const std::vector<std::string> &getPathSet() const;
+
+    void setPathSet(const std::vector<std::string> &pathSet);
+
     const std::vector<std::string> &getInfo() const;
 
     void setInfo(const std::vector<std::string> &info);
+
+    int createFilePath();
 
     void readFileInfo();
 

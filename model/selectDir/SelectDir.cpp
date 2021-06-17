@@ -13,7 +13,7 @@ SelectDir::SelectDir(const std::string &path) : path(path) {
     this->pathSet = std::vector<std::string>();
 }
 
-auto SelectDir::findDir() -> int {
+int SelectDir::findDir() {
     int count = 0;
     std::string tempPath = "";
     this->pathSet.push_back(tempPath);
@@ -56,7 +56,7 @@ void SelectDir::selectDir() {
     this->sayLog("clear dir over!");
 }
 
-auto SelectDir::addPathSet(const std::string &tempPath) -> int {
+int SelectDir::addPathSet(const std::string &tempPath) {
     int count = 0;
     DIR * dir1;
     struct dirent * ptr1;
@@ -78,7 +78,7 @@ auto SelectDir::addPathSet(const std::string &tempPath) -> int {
     return count;
 }
 
-auto SelectDir::sayLog(const std::string &logInfo) -> void {
+void SelectDir::sayLog(const std::string &logInfo) {
     if (LOGKEYTAG == 1) {
         printLog(logInfo);
     }

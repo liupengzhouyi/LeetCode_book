@@ -26,10 +26,6 @@ model/createMarkdown/createMarkdown/CreateMarkdown.h
 model/selectDir/SelectDir.h
 /Users/liupeng/CLionProjects/LeetCode_book/model/selectDir/SelectDir.h
 
-/Users/liupeng/CLionProjects/LeetCode_book/model/createFile/CreateFile.cpp
-CreateFile.h
-/Users/liupeng/CLionProjects/LeetCode_book/model/createFile/CreateFile.h
-
 /Users/liupeng/CLionProjects/LeetCode_book/model/createFile/CreateFile.h
 iostream
 -
@@ -40,25 +36,11 @@ string
 ../../allEnv.h
 /Users/liupeng/CLionProjects/LeetCode_book/allEnv.h
 
-/Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/createMarkdown/CreateMarkdown.cpp
-fstream
--
-CreateMarkdown.h
-/Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/createMarkdown/CreateMarkdown.h
-../../../allEnv.h
-/Users/liupeng/CLionProjects/LeetCode_book/allEnv.h
-
 /Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/createMarkdown/CreateMarkdown.h
 string
 -
 vector
 -
-
-/Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/readFile/ReadFile.cpp
-ReadFile.h
-/Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/readFile/ReadFile.h
-../../../allEnv.h
-/Users/liupeng/CLionProjects/LeetCode_book/allEnv.h
 
 /Users/liupeng/CLionProjects/LeetCode_book/model/createMarkdown/readFile/ReadFile.h
 iostream
@@ -71,12 +53,6 @@ fstream
 -
 dirent.h
 -
-
-/Users/liupeng/CLionProjects/LeetCode_book/model/selectDir/SelectDir.cpp
-SelectDir.h
-/Users/liupeng/CLionProjects/LeetCode_book/model/selectDir/SelectDir.h
-../../allEnv.h
-/Users/liupeng/CLionProjects/LeetCode_book/allEnv.h
 
 /Users/liupeng/CLionProjects/LeetCode_book/model/selectDir/SelectDir.h
 vector

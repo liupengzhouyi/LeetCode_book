@@ -11,6 +11,8 @@ ycvgubhkj
 
 ```cpp
 
-## 比较简单
+int main() {
 
+    reutrn 0;
+}
 ```

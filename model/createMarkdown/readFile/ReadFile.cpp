@@ -99,7 +99,7 @@ int ReadFile::createFilePath() {
     this->pathSet.push_back(codePath);
     this->info.push_back("# 参考代码（By：liupeng）\n");
     this->info.push_back("```cpp\n");
-    this->readFileInfo(mindPath);
+    this->readFileInfo(codePath);
     this->info.push_back("```");
     count = count + 1;
     return count;

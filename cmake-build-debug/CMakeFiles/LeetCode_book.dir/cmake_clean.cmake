@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LeetCode_book.dir/main.cpp.o"
+  "CMakeFiles/LeetCode_book.dir/model/createCppCode/CreateCppCode.cpp.o"
   "CMakeFiles/LeetCode_book.dir/model/createFile/CreateFile.cpp.o"
   "CMakeFiles/LeetCode_book.dir/model/createMarkdown/createMarkdown/CreateMarkdown.cpp.o"
   "CMakeFiles/LeetCode_book.dir/model/createMarkdown/readFile/ReadFile.cpp.o"

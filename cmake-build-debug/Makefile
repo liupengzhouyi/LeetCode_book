@@ -169,6 +169,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+model/createCppCode/CreateCppCode.o: model/createCppCode/CreateCppCode.cpp.o
+
+.PHONY : model/createCppCode/CreateCppCode.o
+
+# target to build an object file
+model/createCppCode/CreateCppCode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/model/createCppCode/CreateCppCode.cpp.o
+.PHONY : model/createCppCode/CreateCppCode.cpp.o
+
+model/createCppCode/CreateCppCode.i: model/createCppCode/CreateCppCode.cpp.i
+
+.PHONY : model/createCppCode/CreateCppCode.i
+
+# target to preprocess a source file
+model/createCppCode/CreateCppCode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/model/createCppCode/CreateCppCode.cpp.i
+.PHONY : model/createCppCode/CreateCppCode.cpp.i
+
+model/createCppCode/CreateCppCode.s: model/createCppCode/CreateCppCode.cpp.s
+
+.PHONY : model/createCppCode/CreateCppCode.s
+
+# target to generate assembly for a file
+model/createCppCode/CreateCppCode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/model/createCppCode/CreateCppCode.cpp.s
+.PHONY : model/createCppCode/CreateCppCode.cpp.s
+
 model/createFile/CreateFile.o: model/createFile/CreateFile.cpp.o
 
 .PHONY : model/createFile/CreateFile.o
@@ -289,6 +316,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... model/createCppCode/CreateCppCode.o"
+	@echo "... model/createCppCode/CreateCppCode.i"
+	@echo "... model/createCppCode/CreateCppCode.s"
 	@echo "... model/createFile/CreateFile.o"
 	@echo "... model/createFile/CreateFile.i"
 	@echo "... model/createFile/CreateFile.s"

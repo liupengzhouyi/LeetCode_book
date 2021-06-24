@@ -11,11 +11,107 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[1491]去掉最低工资和最高工资后的工资平均值.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[1491]去掉最低工资和最高工资后的工资平均值.cpp" />
+              <option name="questionId" value="1584" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[1539]第 k 个缺失的正整数.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[1539]第 k 个缺失的正整数.cpp" />
+              <option name="questionId" value="1646" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[441]排列硬币.cpp">
           <value>
             <LeetcodeEditor>
               <option name="path" value="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[441]排列硬币.cpp" />
               <option name="questionId" value="441" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[559]N 叉树的最大深度.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[559]N 叉树的最大深度.cpp" />
+              <option name="questionId" value="774" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[561]数组拆分 I.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[561]数组拆分 I.cpp" />
+              <option name="questionId" value="561" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[661]图片平滑器.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[661]图片平滑器.cpp" />
+              <option name="questionId" value="661" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[690]员工的重要性.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[690]员工的重要性.cpp" />
+              <option name="questionId" value="690" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[832]翻转图像.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[832]翻转图像.cpp" />
+              <option name="questionId" value="861" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[867]转置矩阵.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[867]转置矩阵.cpp" />
+              <option name="questionId" value="898" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[914]卡牌分组.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[914]卡牌分组.cpp" />
+              <option name="questionId" value="950" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[925]长按键入.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[925]长按键入.cpp" />
+              <option name="questionId" value="961" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[944]删列造序.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[944]删列造序.cpp" />
+              <option name="questionId" value="981" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[976]三角形的最大周长.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[976]三角形的最大周长.cpp" />
+              <option name="questionId" value="1018" />
             </LeetcodeEditor>
           </value>
         </entry>

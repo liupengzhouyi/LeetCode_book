@@ -3,6 +3,7 @@
 #include "model/createFile/CreateFile.h"
 #include "model/createMarkdown/createMarkdown/CreateMarkdown.h"
 #include "model/selectDir/SelectDir.h"
+#include "model/createCppCode/CreateCppCode.h"
 
 void show() {
     std::cout << "做题 -> 1" << std::endl;
@@ -40,7 +41,10 @@ std::vector<std::vector<int>> generate(int numRows) {
 
 int main() {
 
-
+    CreateCppCode createCppCode = CreateCppCode();
+    createCppCode.setSubjectNum("1234");
+    createCppCode.createClassInfo();
+    createCppCode.showCppCodeInfo();
 
 
     int n;

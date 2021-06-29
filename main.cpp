@@ -39,12 +39,10 @@ std::vector<std::vector<int>> generate(int numRows) {
 
 }
 
+
 int main() {
 
-    CreateCppCode createCppCode = CreateCppCode();
-    createCppCode.setSubjectNum("1234");
-    createCppCode.createClassInfo();
-    createCppCode.showCppCodeInfo();
+
 
 
     int n;

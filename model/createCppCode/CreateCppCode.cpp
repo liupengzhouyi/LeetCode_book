@@ -66,14 +66,38 @@ void CreateCppCode::createClassInfo() {
     this->addCode("#include <set>");
     this->addCode("#include <map>");
     this->addCode("#include <math>");
-
+    this->addCode("#include <time.h>");
     this->addCode("class Solution" + this->getClassName() +" {");
     this->addCode("    public:");
+    this->addCode("");
     this->addCode("    void showInfo() {");
     this->addCode("        std::cout << \"Holle World!\" << std::endl;");
     this->addCode("    }");
+    this->addCode("");
+    this->addCode("    void print(std::string strInfo) {");
+    this->addCode("        time_t now = time(0);");
+    this->addCode("        tm *ltm = localtime(&now);");
+    this->addCode("        std::string year = std::to_string(1900 + ltm->tm_year);");
+    this->addCode("        std::string month = std::to_string(1 + ltm->tm_mon);");
+    this->addCode("        if (month.length() == 1) month = \"0\" + month;");
+    this->addCode("        std::string day = std::to_string(ltm->tm_mday);");
+    this->addCode("        if (day.length() == 1) day = \"0\" + day;");
+    this->addCode("        std::string hour = std::to_string(ltm->tm_hour);");
+    this->addCode("        if (hour.length() == 1) hour = \"0\" + hour;");
+    this->addCode("        std::string min = std::to_string(ltm->tm_min);");
+    this->addCode("        if (min.length() == 1) min = \"0\" + min;");
+    this->addCode("        std::string sec = std::to_string(ltm->tm_sec);");
+    this->addCode("        if (sec.length() == 1) sec = \"0\" + sec;");
+    this->addCode("        std::string dateTime = year + \"-\" + month + \"-\" + day + \" \" + hour + \":\" + month + \":\" + sec;");
+    this->addCode("        std::cout << dateTime + \" | \" + strInfo << std:endl;");
+    this->addCode("    }");
+    this->addCode("");
+    this->addCode("");
     this->addCode("};");
 }
+
+
+
 
 void CreateCppCode::showCppCodeInfo() {
     for (auto item : this->getCode()) {

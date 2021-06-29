@@ -4,6 +4,7 @@
 
 
 #include "CreateFile.h"
+#include "../createCppCode/CreateCppCode.h"
 
 CreateFile::CreateFile() {
     this->init();
@@ -75,6 +76,35 @@ void CreateFile::createThreeFile() {
     std::string codeName = this->getDirName() + "Code.cpp";
     this->log("准备创建" + codeName);
     this->createFileByName(codeName);
+
+    this->log("准备写入cpp代码初始文件");
+    this->log("cpp file path: " + this->path + "/" + codeName);
+    std::string cppFilePath = "../" + this->path + "/" + codeName;
+    CreateCppCode createCppCode = CreateCppCode();
+    createCppCode.setSubjectNum(this->fileName);
+    createCppCode.createClassInfo();
+    std::ofstream outfile;
+    outfile.open(cppFilePath);
+    if (outfile.is_open()) {
+        for (auto item : createCppCode.getCode()) {
+            this->log(item);
+            outfile << item << std::endl;
+        }
+    }
+
+//    if(!outfile)
+//    { //打开失败
+//        this->log("cpp 文件打开失败！");
+//        this->log("cpp 文件路径：" + cppFilePath);
+//        return ;
+//    }
+//    else
+//    {
+//        for (auto item : createCppCode.getCode()) {
+//            outfile << item << std::endl;
+//        }
+//    }
+    this->log("写入cpp代码初始文件完成");
 
     std::string titleName = this->getDirName() + "Title.md";
     this->log("准备创建" + titleName);

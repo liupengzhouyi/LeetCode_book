@@ -11,6 +11,22 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[1408]数组中的字符串匹配.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[1408]数组中的字符串匹配.cpp" />
+              <option name="questionId" value="1524" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[1436]旅行终点站.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[1436]旅行终点站.cpp" />
+              <option name="questionId" value="1547" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[1491]去掉最低工资和最高工资后的工资平均值.cpp">
           <value>
             <LeetcodeEditor>
@@ -24,6 +40,22 @@
             <LeetcodeEditor>
               <option name="path" value="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[1539]第 k 个缺失的正整数.cpp" />
               <option name="questionId" value="1646" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[1752]检查数组是否经排序和轮转得到.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[1752]检查数组是否经排序和轮转得到.cpp" />
+              <option name="questionId" value="1878" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[1790]仅执行一次字符串交换能否使两个字符串相等.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/xb/33tl_srj5c13pd7kyhdsqn8r0000gn/T/leetcode/editor/cn/[1790]仅执行一次字符串交换能否使两个字符串相等.cpp" />
+              <option name="questionId" value="1915" />
             </LeetcodeEditor>
           </value>
         </entry>

@@ -83,6 +83,30 @@
 		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/allEnv.h">
 			<Option target="LeetCode_book"/>
 		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/factoryModel/Log/Log.cpp">
+			<Option target="LeetCode_book"/>
+		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/factoryModel/Log/Log.h">
+			<Option target="LeetCode_book"/>
+		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/factoryModel/PrintLog/PrintLog.cpp">
+			<Option target="LeetCode_book"/>
+		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/factoryModel/PrintLog/PrintLog.h">
+			<Option target="LeetCode_book"/>
+		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/factoryModel/RunLog/RunLog.cpp">
+			<Option target="LeetCode_book"/>
+		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/factoryModel/RunLog/RunLog.h">
+			<Option target="LeetCode_book"/>
+		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/factoryModel/factoryModelIndex.cpp">
+			<Option target="LeetCode_book"/>
+		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/factoryModel/factoryModelIndex.h">
+			<Option target="LeetCode_book"/>
+		</Unit>
 		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/main.cpp">
 			<Option target="LeetCode_book"/>
 		</Unit>

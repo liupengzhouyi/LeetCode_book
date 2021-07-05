@@ -4,6 +4,11 @@
 #include "model/createMarkdown/createMarkdown/CreateMarkdown.h"
 #include "model/selectDir/SelectDir.h"
 #include "model/createCppCode/CreateCppCode.h"
+#include "design-patterns/factoryModel/Log/Log.h"
+#include "design-patterns/factoryModel/RunLog/RunLog.h"
+#include "design-patterns/factoryModel/PrintLog/PrintLog.h"
+//#include "design-patterns/factoryModel/factoryModelIndex.h"
+//#include "design-patterns/factoryModel/factoryModelIndex.cpp"
 
 void show() {
     std::cout << "做题 -> 1" << std::endl;
@@ -16,7 +21,6 @@ std::vector<std::vector<int>> generate(int numRows) {
     std::vector<std::vector<int>> returnList = std::vector<std::vector<int>>();
     if(numRows == 0) return returnList;
     else {
-
         std::vector<int> l = {1};
         returnList.push_back(l);
         if(numRows == 1) return returnList;
@@ -32,17 +36,28 @@ std::vector<std::vector<int>> generate(int numRows) {
                 }
                 temp.push_back(1);
                 returnList.push_back(temp);
+                return returnList;
             }
-            return returnList;
         }
     }
-
 }
 
+void factoryModelIndex11() {
+    Log *runLog = new RunLog();
+    Log *printLog = new PrintLog();
+    runLog->setLogType("运行日志");
+    runLog->setLogInfo("正在运行");
+    runLog->createReturnLogInfo();
+    std::cout << runLog->getReturnLogInfo() << std::endl;
+    printLog->setLogType("打印日志");
+    printLog->setLogInfo("正在打印");
+    printLog->createReturnLogInfo();
+    std::cout << printLog->getReturnLogInfo() << std::endl;
+}
 
 int main() {
 
-
+    factoryModelIndex11();
 
 
     int n;

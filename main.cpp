@@ -53,6 +53,8 @@ void factoryModelIndex11() {
     printLog->setLogInfo("正在打印");
     printLog->createReturnLogInfo();
     std::cout << printLog->getReturnLogInfo() << std::endl;
+    delete runLog;
+    delete printLog;
 }
 
 int main() {

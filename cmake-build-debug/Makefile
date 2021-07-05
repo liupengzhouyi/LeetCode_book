@@ -142,6 +142,114 @@ LeetCode_book/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/build
 .PHONY : LeetCode_book/fast
 
+design-patterns/factoryModel/Log/Log.o: design-patterns/factoryModel/Log/Log.cpp.o
+
+.PHONY : design-patterns/factoryModel/Log/Log.o
+
+# target to build an object file
+design-patterns/factoryModel/Log/Log.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/Log/Log.cpp.o
+.PHONY : design-patterns/factoryModel/Log/Log.cpp.o
+
+design-patterns/factoryModel/Log/Log.i: design-patterns/factoryModel/Log/Log.cpp.i
+
+.PHONY : design-patterns/factoryModel/Log/Log.i
+
+# target to preprocess a source file
+design-patterns/factoryModel/Log/Log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/Log/Log.cpp.i
+.PHONY : design-patterns/factoryModel/Log/Log.cpp.i
+
+design-patterns/factoryModel/Log/Log.s: design-patterns/factoryModel/Log/Log.cpp.s
+
+.PHONY : design-patterns/factoryModel/Log/Log.s
+
+# target to generate assembly for a file
+design-patterns/factoryModel/Log/Log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/Log/Log.cpp.s
+.PHONY : design-patterns/factoryModel/Log/Log.cpp.s
+
+design-patterns/factoryModel/PrintLog/PrintLog.o: design-patterns/factoryModel/PrintLog/PrintLog.cpp.o
+
+.PHONY : design-patterns/factoryModel/PrintLog/PrintLog.o
+
+# target to build an object file
+design-patterns/factoryModel/PrintLog/PrintLog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/PrintLog/PrintLog.cpp.o
+.PHONY : design-patterns/factoryModel/PrintLog/PrintLog.cpp.o
+
+design-patterns/factoryModel/PrintLog/PrintLog.i: design-patterns/factoryModel/PrintLog/PrintLog.cpp.i
+
+.PHONY : design-patterns/factoryModel/PrintLog/PrintLog.i
+
+# target to preprocess a source file
+design-patterns/factoryModel/PrintLog/PrintLog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/PrintLog/PrintLog.cpp.i
+.PHONY : design-patterns/factoryModel/PrintLog/PrintLog.cpp.i
+
+design-patterns/factoryModel/PrintLog/PrintLog.s: design-patterns/factoryModel/PrintLog/PrintLog.cpp.s
+
+.PHONY : design-patterns/factoryModel/PrintLog/PrintLog.s
+
+# target to generate assembly for a file
+design-patterns/factoryModel/PrintLog/PrintLog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/PrintLog/PrintLog.cpp.s
+.PHONY : design-patterns/factoryModel/PrintLog/PrintLog.cpp.s
+
+design-patterns/factoryModel/RunLog/RunLog.o: design-patterns/factoryModel/RunLog/RunLog.cpp.o
+
+.PHONY : design-patterns/factoryModel/RunLog/RunLog.o
+
+# target to build an object file
+design-patterns/factoryModel/RunLog/RunLog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/RunLog/RunLog.cpp.o
+.PHONY : design-patterns/factoryModel/RunLog/RunLog.cpp.o
+
+design-patterns/factoryModel/RunLog/RunLog.i: design-patterns/factoryModel/RunLog/RunLog.cpp.i
+
+.PHONY : design-patterns/factoryModel/RunLog/RunLog.i
+
+# target to preprocess a source file
+design-patterns/factoryModel/RunLog/RunLog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/RunLog/RunLog.cpp.i
+.PHONY : design-patterns/factoryModel/RunLog/RunLog.cpp.i
+
+design-patterns/factoryModel/RunLog/RunLog.s: design-patterns/factoryModel/RunLog/RunLog.cpp.s
+
+.PHONY : design-patterns/factoryModel/RunLog/RunLog.s
+
+# target to generate assembly for a file
+design-patterns/factoryModel/RunLog/RunLog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/RunLog/RunLog.cpp.s
+.PHONY : design-patterns/factoryModel/RunLog/RunLog.cpp.s
+
+design-patterns/factoryModel/factoryModelIndex.o: design-patterns/factoryModel/factoryModelIndex.cpp.o
+
+.PHONY : design-patterns/factoryModel/factoryModelIndex.o
+
+# target to build an object file
+design-patterns/factoryModel/factoryModelIndex.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/factoryModelIndex.cpp.o
+.PHONY : design-patterns/factoryModel/factoryModelIndex.cpp.o
+
+design-patterns/factoryModel/factoryModelIndex.i: design-patterns/factoryModel/factoryModelIndex.cpp.i
+
+.PHONY : design-patterns/factoryModel/factoryModelIndex.i
+
+# target to preprocess a source file
+design-patterns/factoryModel/factoryModelIndex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/factoryModelIndex.cpp.i
+.PHONY : design-patterns/factoryModel/factoryModelIndex.cpp.i
+
+design-patterns/factoryModel/factoryModelIndex.s: design-patterns/factoryModel/factoryModelIndex.cpp.s
+
+.PHONY : design-patterns/factoryModel/factoryModelIndex.s
+
+# target to generate assembly for a file
+design-patterns/factoryModel/factoryModelIndex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/factoryModelIndex.cpp.s
+.PHONY : design-patterns/factoryModel/factoryModelIndex.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -313,6 +421,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCode_book"
+	@echo "... design-patterns/factoryModel/Log/Log.o"
+	@echo "... design-patterns/factoryModel/Log/Log.i"
+	@echo "... design-patterns/factoryModel/Log/Log.s"
+	@echo "... design-patterns/factoryModel/PrintLog/PrintLog.o"
+	@echo "... design-patterns/factoryModel/PrintLog/PrintLog.i"
+	@echo "... design-patterns/factoryModel/PrintLog/PrintLog.s"
+	@echo "... design-patterns/factoryModel/RunLog/RunLog.o"
+	@echo "... design-patterns/factoryModel/RunLog/RunLog.i"
+	@echo "... design-patterns/factoryModel/RunLog/RunLog.s"
+	@echo "... design-patterns/factoryModel/factoryModelIndex.o"
+	@echo "... design-patterns/factoryModel/factoryModelIndex.i"
+	@echo "... design-patterns/factoryModel/factoryModelIndex.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

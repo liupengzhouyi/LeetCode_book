@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/liupeng/CLionProjects/LeetCode_book/model/createCppCode/CreateCppCode.cpp
-CreateCppCode.h
-/Users/liupeng/CLionProjects/LeetCode_book/model/createCppCode/CreateCppCode.h
+/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/factoryModel/Log/Log.cpp
+Log.h
+/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/factoryModel/Log/Log.h
 
-/Users/liupeng/CLionProjects/LeetCode_book/model/createCppCode/CreateCppCode.h
+/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/factoryModel/Log/Log.h
 iostream
 -
 string
 -
-vector
+ctime
 -
 

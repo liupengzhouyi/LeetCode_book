@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/Log/Log.cpp.o"
+  "CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/PrintLog/PrintLog.cpp.o"
+  "CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/RunLog/RunLog.cpp.o"
+  "CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/factoryModelIndex.cpp.o"
   "CMakeFiles/LeetCode_book.dir/main.cpp.o"
   "CMakeFiles/LeetCode_book.dir/model/createCppCode/CreateCppCode.cpp.o"
   "CMakeFiles/LeetCode_book.dir/model/createFile/CreateFile.cpp.o"

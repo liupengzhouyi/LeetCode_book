@@ -59,7 +59,15 @@ void Log::setNewTime() {
 
 void Log::createTime() {
     this->time = std::time(nullptr);
-    this->setTimeStr(std::asctime(std::localtime(&this->time)));
+    std::string strDateTime = "";
+    tm *localtimeTemp = localtime(&time);
+    strDateTime = strDateTime + std::to_string(1900 + localtimeTemp->tm_year) + "-";
+    strDateTime = strDateTime + std::to_string(1 + localtimeTemp->tm_mon) + "-";
+    strDateTime = strDateTime + std::to_string(localtimeTemp->tm_mday) + " ";
+    strDateTime = strDateTime + std::to_string(localtimeTemp->tm_hour) + ":";
+    strDateTime = strDateTime + std::to_string(localtimeTemp->tm_min) + ":";
+    strDateTime = strDateTime + std::to_string(localtimeTemp->tm_sec);
+    this->setTimeStr(strDateTime);
 }
 
 void Log::createReturnLogInfo() {

@@ -1,7 +1,7 @@
 # 工厂模式
 
 ```mermaid
-classDesign
+classDiagram
 class Log {
     - logInfo: string
     + getLog(): string

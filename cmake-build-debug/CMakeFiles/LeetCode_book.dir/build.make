@@ -206,6 +206,45 @@ CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/factoryModelIndex.cpp.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/factoryModelIndex.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liupeng/CLionProjects/LeetCode_book/design-patterns/factoryModel/factoryModelIndex.cpp -o CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/factoryModelIndex.cpp.s
 
+CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLog/ShowLog.cpp.o: CMakeFiles/LeetCode_book.dir/flags.make
+CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLog/ShowLog.cpp.o: ../design-patterns/adapterMode/showLog/ShowLog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liupeng/CLionProjects/LeetCode_book/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLog/ShowLog.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLog/ShowLog.cpp.o -c /Users/liupeng/CLionProjects/LeetCode_book/design-patterns/adapterMode/showLog/ShowLog.cpp
+
+CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLog/ShowLog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLog/ShowLog.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liupeng/CLionProjects/LeetCode_book/design-patterns/adapterMode/showLog/ShowLog.cpp > CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLog/ShowLog.cpp.i
+
+CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLog/ShowLog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLog/ShowLog.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liupeng/CLionProjects/LeetCode_book/design-patterns/adapterMode/showLog/ShowLog.cpp -o CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLog/ShowLog.cpp.s
+
+CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.o: CMakeFiles/LeetCode_book.dir/flags.make
+CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.o: ../design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liupeng/CLionProjects/LeetCode_book/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.o -c /Users/liupeng/CLionProjects/LeetCode_book/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp
+
+CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liupeng/CLionProjects/LeetCode_book/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp > CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.i
+
+CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liupeng/CLionProjects/LeetCode_book/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp -o CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.s
+
+CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.o: CMakeFiles/LeetCode_book.dir/flags.make
+CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.o: ../design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liupeng/CLionProjects/LeetCode_book/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.o -c /Users/liupeng/CLionProjects/LeetCode_book/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp
+
+CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liupeng/CLionProjects/LeetCode_book/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp > CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.i
+
+CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liupeng/CLionProjects/LeetCode_book/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp -o CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.s
+
 # Object files for target LeetCode_book
 LeetCode_book_OBJECTS = \
 "CMakeFiles/LeetCode_book.dir/main.cpp.o" \
@@ -217,7 +256,10 @@ LeetCode_book_OBJECTS = \
 "CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/Log/Log.cpp.o" \
 "CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/RunLog/RunLog.cpp.o" \
 "CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/PrintLog/PrintLog.cpp.o" \
-"CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/factoryModelIndex.cpp.o"
+"CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/factoryModelIndex.cpp.o" \
+"CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLog/ShowLog.cpp.o" \
+"CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.o" \
+"CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.o"
 
 # External object files for target LeetCode_book
 LeetCode_book_EXTERNAL_OBJECTS =
@@ -232,9 +274,12 @@ LeetCode_book: CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/Log/Log
 LeetCode_book: CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/RunLog/RunLog.cpp.o
 LeetCode_book: CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/PrintLog/PrintLog.cpp.o
 LeetCode_book: CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/factoryModelIndex.cpp.o
+LeetCode_book: CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLog/ShowLog.cpp.o
+LeetCode_book: CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.o
+LeetCode_book: CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.o
 LeetCode_book: CMakeFiles/LeetCode_book.dir/build.make
 LeetCode_book: CMakeFiles/LeetCode_book.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/liupeng/CLionProjects/LeetCode_book/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable LeetCode_book"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/liupeng/CLionProjects/LeetCode_book/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable LeetCode_book"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LeetCode_book.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

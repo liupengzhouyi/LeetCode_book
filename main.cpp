@@ -58,6 +58,7 @@ void factoryModelIndex11() {
     std::cout << printLog->getReturnLogInfo() << std::endl;
     printLog->setLogInfo("正在打印3");
     printLog->createReturnLogInfo();
+    printLog->setLogType("测试日志");
     std::cout << printLog->getReturnLogInfo() << std::endl;
     printLog->setLogInfo("正在打印4");
     printLog->createReturnLogInfo();

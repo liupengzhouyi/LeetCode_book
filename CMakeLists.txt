@@ -23,7 +23,13 @@ add_executable(LeetCode_book
         design-patterns/factoryModel/PrintLog/PrintLog.cpp
         design-patterns/factoryModel/PrintLog/PrintLog.h
         design-patterns/factoryModel/factoryModelIndex.h
-        design-patterns/factoryModel/factoryModelIndex.cpp)
+        design-patterns/factoryModel/factoryModelIndex.cpp
+        design-patterns/adapterMode/showLog/ShowLog.cpp
+        design-patterns/adapterMode/showLog/ShowLog.h
+        design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp
+        design-patterns/adapterMode/showLogForDev/ShowLogForDev.h
+        design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp
+        design-patterns/adapterMode/showLogForTest/ShowLogForTest.h)
 
 
 #include_directories(design-patterns/factoryModel/factoryModelIndex.h)

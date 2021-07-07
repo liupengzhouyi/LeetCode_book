@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/adapterMode/showLog/ShowLog.cpp" "/Users/liupeng/CLionProjects/LeetCode_book/cmake-build-debug/CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLog/ShowLog.cpp.o"
+  "/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp" "/Users/liupeng/CLionProjects/LeetCode_book/cmake-build-debug/CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.o"
+  "/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp" "/Users/liupeng/CLionProjects/LeetCode_book/cmake-build-debug/CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.o"
   "/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/factoryModel/Log/Log.cpp" "/Users/liupeng/CLionProjects/LeetCode_book/cmake-build-debug/CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/Log/Log.cpp.o"
   "/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/factoryModel/PrintLog/PrintLog.cpp" "/Users/liupeng/CLionProjects/LeetCode_book/cmake-build-debug/CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/PrintLog/PrintLog.cpp.o"
   "/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/factoryModel/RunLog/RunLog.cpp" "/Users/liupeng/CLionProjects/LeetCode_book/cmake-build-debug/CMakeFiles/LeetCode_book.dir/design-patterns/factoryModel/RunLog/RunLog.cpp.o"

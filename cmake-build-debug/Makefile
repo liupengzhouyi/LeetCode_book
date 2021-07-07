@@ -142,6 +142,87 @@ LeetCode_book/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/build
 .PHONY : LeetCode_book/fast
 
+design-patterns/adapterMode/showLog/ShowLog.o: design-patterns/adapterMode/showLog/ShowLog.cpp.o
+
+.PHONY : design-patterns/adapterMode/showLog/ShowLog.o
+
+# target to build an object file
+design-patterns/adapterMode/showLog/ShowLog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLog/ShowLog.cpp.o
+.PHONY : design-patterns/adapterMode/showLog/ShowLog.cpp.o
+
+design-patterns/adapterMode/showLog/ShowLog.i: design-patterns/adapterMode/showLog/ShowLog.cpp.i
+
+.PHONY : design-patterns/adapterMode/showLog/ShowLog.i
+
+# target to preprocess a source file
+design-patterns/adapterMode/showLog/ShowLog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLog/ShowLog.cpp.i
+.PHONY : design-patterns/adapterMode/showLog/ShowLog.cpp.i
+
+design-patterns/adapterMode/showLog/ShowLog.s: design-patterns/adapterMode/showLog/ShowLog.cpp.s
+
+.PHONY : design-patterns/adapterMode/showLog/ShowLog.s
+
+# target to generate assembly for a file
+design-patterns/adapterMode/showLog/ShowLog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLog/ShowLog.cpp.s
+.PHONY : design-patterns/adapterMode/showLog/ShowLog.cpp.s
+
+design-patterns/adapterMode/showLogForDev/ShowLogForDev.o: design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.o
+
+.PHONY : design-patterns/adapterMode/showLogForDev/ShowLogForDev.o
+
+# target to build an object file
+design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.o
+.PHONY : design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.o
+
+design-patterns/adapterMode/showLogForDev/ShowLogForDev.i: design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.i
+
+.PHONY : design-patterns/adapterMode/showLogForDev/ShowLogForDev.i
+
+# target to preprocess a source file
+design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.i
+.PHONY : design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.i
+
+design-patterns/adapterMode/showLogForDev/ShowLogForDev.s: design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.s
+
+.PHONY : design-patterns/adapterMode/showLogForDev/ShowLogForDev.s
+
+# target to generate assembly for a file
+design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.s
+.PHONY : design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp.s
+
+design-patterns/adapterMode/showLogForTest/ShowLogForTest.o: design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.o
+
+.PHONY : design-patterns/adapterMode/showLogForTest/ShowLogForTest.o
+
+# target to build an object file
+design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.o
+.PHONY : design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.o
+
+design-patterns/adapterMode/showLogForTest/ShowLogForTest.i: design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.i
+
+.PHONY : design-patterns/adapterMode/showLogForTest/ShowLogForTest.i
+
+# target to preprocess a source file
+design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.i
+.PHONY : design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.i
+
+design-patterns/adapterMode/showLogForTest/ShowLogForTest.s: design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.s
+
+.PHONY : design-patterns/adapterMode/showLogForTest/ShowLogForTest.s
+
+# target to generate assembly for a file
+design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode_book.dir/build.make CMakeFiles/LeetCode_book.dir/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.s
+.PHONY : design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp.s
+
 design-patterns/factoryModel/Log/Log.o: design-patterns/factoryModel/Log/Log.cpp.o
 
 .PHONY : design-patterns/factoryModel/Log/Log.o
@@ -421,6 +502,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCode_book"
+	@echo "... design-patterns/adapterMode/showLog/ShowLog.o"
+	@echo "... design-patterns/adapterMode/showLog/ShowLog.i"
+	@echo "... design-patterns/adapterMode/showLog/ShowLog.s"
+	@echo "... design-patterns/adapterMode/showLogForDev/ShowLogForDev.o"
+	@echo "... design-patterns/adapterMode/showLogForDev/ShowLogForDev.i"
+	@echo "... design-patterns/adapterMode/showLogForDev/ShowLogForDev.s"
+	@echo "... design-patterns/adapterMode/showLogForTest/ShowLogForTest.o"
+	@echo "... design-patterns/adapterMode/showLogForTest/ShowLogForTest.i"
+	@echo "... design-patterns/adapterMode/showLogForTest/ShowLogForTest.s"
 	@echo "... design-patterns/factoryModel/Log/Log.o"
 	@echo "... design-patterns/factoryModel/Log/Log.i"
 	@echo "... design-patterns/factoryModel/Log/Log.s"

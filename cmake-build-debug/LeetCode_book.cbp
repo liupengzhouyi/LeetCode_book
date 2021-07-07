@@ -83,6 +83,24 @@
 		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/allEnv.h">
 			<Option target="LeetCode_book"/>
 		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/adapterMode/showLog/ShowLog.cpp">
+			<Option target="LeetCode_book"/>
+		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/adapterMode/showLog/ShowLog.h">
+			<Option target="LeetCode_book"/>
+		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/adapterMode/showLogForDev/ShowLogForDev.cpp">
+			<Option target="LeetCode_book"/>
+		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/adapterMode/showLogForDev/ShowLogForDev.h">
+			<Option target="LeetCode_book"/>
+		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/adapterMode/showLogForTest/ShowLogForTest.cpp">
+			<Option target="LeetCode_book"/>
+		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/adapterMode/showLogForTest/ShowLogForTest.h">
+			<Option target="LeetCode_book"/>
+		</Unit>
 		<Unit filename="/Users/liupeng/CLionProjects/LeetCode_book/design-patterns/factoryModel/Log/Log.cpp">
 			<Option target="LeetCode_book"/>
 		</Unit>

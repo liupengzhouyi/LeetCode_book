@@ -18,6 +18,8 @@ public:
 
     ShowLog();
 
+    ShowLog(const Log &log);
+
     virtual ~ShowLog();
 
     virtual std::string createReturnLogInfo();

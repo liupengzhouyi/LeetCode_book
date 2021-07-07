@@ -6,6 +6,8 @@
 
 ShowLog::ShowLog() {}
 
+ShowLog::ShowLog(const Log &log) : log(log) {}
+
 ShowLog::~ShowLog() {
 
 }
@@ -29,3 +31,5 @@ void ShowLog::setReturnLogInfo(const std::string &returnLogInfo) {
 std::string ShowLog::createReturnLogInfo() {
     return std::string();
 }
+
+

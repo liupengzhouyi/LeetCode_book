@@ -5,6 +5,10 @@
 #include "ShowLogForTest.h"
 
 std::string ShowLogForTest::createReturnLogInfo() {
-    this->setReturnLogInfo("ReturnLogforTest");
-    return ShowLog::createReturnLogInfo();
+    if (this->getLog().getLogType() == "测试日志") {
+        this->setReturnLogInfo(this->getLog().getReturnLogInfo());
+    } else {
+        this->setReturnLogInfo(this->getLog().getReturnLogInfo());
+    }
+    return this->getReturnLogInfo();
 }

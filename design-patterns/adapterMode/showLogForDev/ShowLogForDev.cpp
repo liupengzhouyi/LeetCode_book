@@ -5,6 +5,10 @@
 #include "ShowLogForDev.h"
 
 std::string ShowLogForDev::createReturnLogInfo() {
-    this->setReturnLogInfo("returnLogForDev");
-    return ShowLog::createReturnLogInfo();
+    if (this->getLog().getLogType() == "运行日志") {
+        this->setReturnLogInfo(this->getLog().getReturnLogInfo());
+    } else {
+        this->setReturnLogInfo(this->getLog().getReturnLogInfo());
+    }
+    return this->getReturnLogInfo();
 }

@@ -6,8 +6,6 @@
 
 ShowLog::ShowLog() {}
 
-ShowLog::ShowLog(const Log &log) : log(log) {}
-
 ShowLog::~ShowLog() {
 
 }

@@ -11,14 +11,11 @@
 class ShowLog {
 private:
     Log log;
-
     std::string returnLogInfo;
 
 public:
 
     ShowLog();
-
-    ShowLog(const Log &log);
 
     virtual ~ShowLog();
 

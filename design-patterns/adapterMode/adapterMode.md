@@ -4,35 +4,35 @@
 
 ```mermaid
 classDiagram
-class SDCard {
-    -info : object
-    +getInfo() : Object
-    +setInfo(Object object)
-}
-class ComputerCard{
-	-card : Card
-	+getAllTypeInfo() : Object
-	+setAllTypeInfo(Object object)
-}
-class CameraCard{
-	-card : Card
-	+getImageTypeInfo() : Object
-	+setImageTypeInfo(Object object)
-}
-class Computer {
-    -card : ComputerCard
-    +getCard() : Crad
-    +setCard(Crad crad)
-}
-class Camera {
-    -card : CameraCard
-    +getCard() : Crad
-    +setCard(Crad crad)
-}
-SDCard <|-- ComputerCard
-SDCard <|-- CameraCard
-ComputerCard --o Computer
-CameraCard --o Camera
+    class SDCard {
+        -info : object
+        +getInfo() : Object
+        +setInfo(Object object)
+    }
+    class ComputerCard{
+        -card : Card
+        +getAllTypeInfo() : Object
+        +setAllTypeInfo(Object object)
+    }
+    class CameraCard{
+        -card : Card
+        +getImageTypeInfo() : Object
+        +setImageTypeInfo(Object object)
+    }
+    class Computer {
+        -card : ComputerCard
+        +getCard() : Crad
+        +setCard(Crad crad)
+    }
+    class Camera {
+        -card : CameraCard
+        +getCard() : Crad
+        +setCard(Crad crad)
+    }
+    SDCard <|-- ComputerCard
+    SDCard <|-- CameraCard
+    ComputerCard --o Computer
+    CameraCard --o Camera
 ```
 
 ## 描述
